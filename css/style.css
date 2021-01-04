@@ -127,6 +127,7 @@ h1,h2,h3{
     background: #333 url('../image_resources/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
+    position: relative;
 }
 
 #showcase .showcase-content{
@@ -136,13 +137,12 @@ h1,h2,h3{
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
     padding: 1rem;
     /* overlay */
     position: absolute;
-    top: 75px;
+    top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
     background-color: rgba(0,0,0,0.4);
 }
 
